@@ -7,7 +7,7 @@ const cors = require("cors");
 
 // Import Router
 const authRouter =require("./routes/auth")
-
+const usersRouter = require("./routes/users")
 
 
 
@@ -42,6 +42,7 @@ app.use(express.json());
 
 // Routes
 app.use("/api" , authRouter)
+app.use("/api/user" , usersRouter)
 
 
 
