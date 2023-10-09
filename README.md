@@ -1,1 +1,1 @@
-# jad-api
+# Auth API
